@@ -1,24 +1,31 @@
+
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>My Profile</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Profile</title>
+  <link rel="stylesheet" href="styles_me2.css">
+</head>
 
-  <body>
-    <h1>My Personal Profile</h1>
+<body>
+  <main>
+    <h1 id="page-title">My Personal Profile</h1>
 
-    <table>
+    <table class="profile-table">
       <tr>
-        <th colspan="2">Jasper Kurt B. Corsal</th>
+        <th class="table-header" colspan="2">
+          <span class="name">Jasper Kurt B. Corsal</span>
+        </th>
       </tr>
 
       <tr>
-        <td>
-          <img src="jasper-pic.jpg" alt="Picture ko to, sorry di nagload" width="180" height="250">
+        <td class="profile-picture">
+          <img src="jasper-pic.jpg"
+               alt="Picture ko to, sorry di nagload"
+               width="180"
+               height="250">
         </td>
-
-        <td>
+        <td class="profile-details">
           <p><b>Full Name:</b> Jasper Kurt Benitez Corsal</p>
           <p><b>Birthday:</b> April 10, 2006</p>
           <p><b>Status:</b> Student</p>
@@ -26,7 +33,7 @@
       </tr>
 
       <tr>
-        <td><b>Hobbies</b></td>
+        <td class="category"><b>Hobbies</b></td>
         <td>
           <ul>
             <li>Maglaro ng laro</li>
@@ -37,7 +44,7 @@
       </tr>
 
       <tr>
-        <td><b>Top 3 Movies</b></td>
+        <td class="category"><b>Top 3 Movies</b></td>
         <td>
           <ol>
             <li>Parasite (2019)</li>
@@ -48,7 +55,7 @@
       </tr>
 
       <tr>
-        <td><b>Favourite Quote</b></td>
+        <td class="category"><b>Favourite Quote</b></td>
         <td>
           <p><i>"Anong tawag sa bomba na galing sa Japan?"</i></p>
           <p><i>,,˙ǝsǝuɐd ɯooq,,</i></p>
@@ -56,19 +63,26 @@
       </tr>
 
       <tr>
-        <td><b>Fun Fact</b></td>
+        <td class="category"><b>Fun Fact</b></td>
         <td>
-          <p><b>Wombat poop is <ins>cube-shaped</ins></b>. Hahahaha minecraft yarnch</p>
+          <p>
+            <b>Wombat poop is <ins>cube-shaped</ins></b>.
+            wthelly
+          </p>
         </td>
       </tr>
 
       <tr>
-        <th colspan="2">
-          <a href="https://github.com/corusaru" target="_blank">
+        <th class="table-header" colspan="2">
+          <a class="github-link"
+             href="https://github.com/corusaru"
+             target="_blank"
+             rel="noopener noreferrer">
             My GitHub Profile
           </a>
         </th>
       </tr>
     </table>
-  </body>
+  </main>
+</body>
 </html>
